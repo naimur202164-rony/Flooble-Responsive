@@ -20,7 +20,7 @@
 /* Navbar-section */
 header {
   background: var(--black-color);
-  height: 100vh;
+  height: 92.2vh;
 }
 header .desktop-nav {
   padding: 0.8rem 0;
@@ -104,4 +104,27 @@ header .desktop-nav li a {
   color: var(--ash-color);
   background-color: var(--white-color);
   text-decoration: none;
+}
+
+/* WOrking on Footer */
+footer {
+  background: var(--ash-color);
+}
+footer .footer-container {
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center   ; */
+}
+
+footer .footer-container ul {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+}
+
+footer .footer-container ul li a {
+  text-decoration: none;
+  color: var(--white-color);
+  list-style: none;
 }
