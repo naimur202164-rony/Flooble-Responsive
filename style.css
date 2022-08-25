@@ -16,3 +16,32 @@
   margin: 0 auto;
   max-width: 1140px;
 }
+
+/* Navbar-section */
+header {
+  background: var(--black-color);
+  height: 100vh;
+}
+header .desktop-nav {
+  padding: 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .desktop-nav ul {
+  padding: 0 0.8rem;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+header .desktop-nav ul:last-child {
+  justify-content: flex-end;
+}
+header .desktop-nav li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--white-color);
+}
