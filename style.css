@@ -89,3 +89,19 @@ header .desktop-nav li a {
   position: absolute;
   left: 25.8rem;
 }
+
+.main-content .content .btn-group {
+  padding-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 58px;
+}
+
+.main-content .content a.btn {
+  border-radius: 5px;
+  padding: 1.2rem 2.6rem;
+  color: var(--ash-color);
+  background-color: var(--white-color);
+  text-decoration: none;
+}
