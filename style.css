@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black-color: #282c34;
+  --ash-color: #707793;
+  --off-white-color: ##f8f8f8;
+  --green-color: #3bb99b;
+  --white-color: #ffffff;
+  --gray-color: #707070;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
